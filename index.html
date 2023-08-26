@@ -16,7 +16,7 @@
     <input type="text" id="name"> <br>
     <label for="pass"> Passwork</label> <br>
     <input type="text" id="pass"><br>
-    <input type="submit" id="submit">
+    <button type="button" onclick="alert ('Đăng nhập thành công!')">Gửi</button>
   </form>
 
   <h4>Lựa chọn ngôn ngữ web</h4>
@@ -37,7 +37,26 @@
       <option value="javascript">Javascript</option>
       <option value=".net">.Net</option>
     </select>
+    <button type="button" onclick="alert ('Chọn thành công!')">Gửi</button>
   </from><br>
+  <from>
+    <textarea name="message" rows="20" cols="70" style="color: rgb(165, 155, 155);">Nhập nội dung</textarea>
+    <br>
+    <button type="button" onclick="alert ('Gửi thành công!')">Gửi</button>
+  </from> 
+  <h3>Lựa chọn datalist Element</h3>
+  <form >
+    <input list="browsers" name="browser">
+    <datalist id="browsers">
+      <option value="HTML">
+      <option value="CSS">
+      <option value="Javascript">
+      <option value="PHP">
+      <option value=".NET">
+    </datalist>
+    <input type="submit">
+  </form>
+  <br>
 
   <a href="https://www.w3schools.com/html/html_basic.asp">Bài html basic</a>
   <img src="http://6.img.izshop.vn/tv55/images/tour/2019/08/origin/8983754fc8ec4a31ca498e8bd943b79f.jpg"
