@@ -1,0 +1,22 @@
+.left {
+    background-color: bisque;
+    padding: 20px;
+    float: left;
+    width: 12px;
+    color: blue;
+}
+
+.main {
+    background-color: darkgray;
+    padding: 60px;
+    float: none;
+    width: 12px;
+    color: beige;
+}
+
+.right {
+    background-color: aqua;
+    padding: 20px;
+    width: 12px;
+    color: black;
+}

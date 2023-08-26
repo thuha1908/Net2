@@ -1,141 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bai tap thuc hanh</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="style" href="style.css" <title>Bai tap thuc hanh</title>
 </head>
+
 <body>
-    <h1 style="font-5size: 50px; color: blue;">Lê Thị Thu Hà </h1>
-    <h5 style="font-size: 15px; color: papayawhip;">2021050228</h5>
-    <hr>
-    <p style="color: brown;"> Bài tập thực hành</p>
-    <p>Đoạn văn này được biên dịch bởi: <br>Người lập trình </p>
-    <a href="https://www.w3schools.com/html/html_basic.asp">Bài html basic</a>
-    <img src="http://6.img.izshop.vn/tv55/images/tour/2019/08/origin/8983754fc8ec4a31ca498e8bd943b79f.jpg" alt="cảnh phong thủy" width="50px", height="50px">
-    <style>
-        table, th, td {
-        border:1px solid black;
-        background-color: rgba(150, 212, 212, 0.4);
+  <h1 style="font-size: 50px; color: blue;">Lê Thị Thu Hà </h1>
+  <h5 style="font-size: 15px; color: papayawhip;">2021050228</h5>
+  <hr>
+  <form action="#" target="_blank">
+    <label for="name"> UseName</label> <br>
+    <input type="text" id="name"> <br>
+    <label for="pass"> Passwork</label> <br>
+    <input type="text" id="pass"><br>
+    <input type="submit" id="submit">
+  </form>
+
+  <h4>Lựa chọn ngôn ngữ web</h4>
+  <p>Tích vào ngôn ngữ web mình lựa chọn</p>
+  <form action="#" target="_blank">
+    <input type="radio" id="html" name="f_study" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="radio" id="css" name="f_study" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="javascript" name="f_study" value="Javascript">
+    <label for="javascript">Javascript</label><br>
+  </form>
+
+  <a href="https://www.w3schools.com/html/html_basic.asp">Bài html basic</a>
+  <img src="http://6.img.izshop.vn/tv55/images/tour/2019/08/origin/8983754fc8ec4a31ca498e8bd943b79f.jpg"
+    alt="cảnh phong thủy" width="50px" , height="50px">
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      background-color: rgba(150, 212, 212, 0.4);
+    }
+
+    th {
+      text-align: left;
+    }
+  </style>
+  <table style="width:100%">
+    <tr>
+      <th>Số thứ tự</th>
+      <th>Họ tên</th>
+      <th>Ngày sinh</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Thu Hà</td>
+      <td>2002</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Le Thu</td>
+      <td>2001</td>
+    </tr>
+  </table>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+      background-color: #666;
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+    }
+
+
+    nav {
+      float: left;
+      width: 30%;
+      height: 300px;
+      background: #ccc;
+      padding: 20px;
+    }
+
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+
+    }
+
+    article {
+      float: left;
+      padding: 20px;
+      width: 70%;
+      background-color: #f1f1f1;
+      height: 300px;
+    }
+
+    article nav {
+      width: 50%;
+      height: 100%;
+    }
+
+
+    section::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+
+    footer {
+      background-color: #777;
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+
+
+    @media (max-width: 600px) {
+
+      nav,
+      article {
+        width: 100%;
+        height: auto;
       }
-      th{
-        text-align: left;
-      }
-    
-    </style>
-    <table style="width:100%">
-        <tr>
-          <th>Số thứ tự</th>
-          <th>Họ tên</th>
-          <th>Ngày sinh</th>
-        </tr>
-        <tr>
-          <td>1</td>
-          <td>Thu Hà</td>
-          <td>2002</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Le Thu</td>
-          <td>2001</td>
-        </tr>
-      </table>
-    <style>
-        * {
-          box-sizing: border-box;
-        }
-        
-        body {
-          font-family: Arial, Helvetica, sans-serif;
-        }
-        
-        header {
-          background-color: #666;
-          padding: 30px;
-          text-align: center;
-          font-size: 35px;
-          color: white;
-        }
-        
-        
-        nav {
-          float: left;
-          width: 30%;
-          height: 300px; 
-          background: #ccc;
-          padding: 20px;
-        }
-        
-        
-        nav ul {
-          list-style-type: none;
-          padding: 0;
-          
-        }
-        
-        article {
-          float: left;
-          padding: 20px;
-          width: 70%;
-          background-color: #f1f1f1;
-          height: 300px; 
-        }
-        article nav{
-        width: 50%;
-        height: 100%;
-        }
-        
-        
-        section::after {
-          content: "";
-          display: table;
-          clear: both;
-        }
-        
-        
-        footer {
-          background-color: #777;
-          padding: 10px;
-          text-align: center;
-          color: white;
-        }
-        
-        
-        @media (max-width: 600px) {
-          nav, article {
-            width: 100%;
-            height: auto;
-          }
-        }
-        </style>
-    <header>
-        <h2>Logo trang chủ</h2>
-    </header>
-        
-    <section>
-        <nav>
-            <ul>
-              <li><a href="#">Trang chủ</a></li>
-              <li><a href="#">Sản phẩm</a></li>
-              <li><a href="#">Thanh toán</a></li>
-            </ul>
-        </nav>
-        <article>
-            <nav>
-               <h1>Sản phẩm </h1>
-               <img src="https://bizweb.dktcdn.net/thumb/1024x1024/100/399/392/products/6-2.png" width=" 150px", height= "150px ">
-               <p>Áo thun nam nữ</p>
-            </nav>
-            <nav>
-                <img src="https://thuthuatnhanh.com/wp-content/uploads/2022/08/ao-thun-in-hinh-theo-yeu-cau.jpg" width=" 150px", height= "150px ">
-                <p>Áo thun nam nữ</p>
-            </nav>
-        </article>
-    </section>
-        
-    <footer>
-        <p>Footer</p>
-    </footer>
-   
+    }
+  </style>
+  <header>
+    <h2>Logo trang chủ</h2>
+  </header>
+
+  <section>
+    <nav>
+      <ul>
+        <li><a href="#">Trang chủ</a></li>
+        <li><a href="#">Sản phẩm</a></li>
+        <li><a href="#">Thanh toán</a></li>
+      </ul>
+    </nav>
+    <article>
+      <nav>
+        <h1>Sản phẩm </h1>
+        <img src="https://bizweb.dktcdn.net/thumb/1024x1024/100/399/392/products/6-2.png" width=" 150px" ,
+          height="150px ">
+        <p>Áo thun nam nữ</p>
+      </nav>
+      <nav>
+        <img src="https://thuthuatnhanh.com/wp-content/uploads/2022/08/ao-thun-in-hinh-theo-yeu-cau.jpg" width=" 150px"
+          , height="150px ">
+        <p>Áo thun nam nữ</p>
+      </nav>
+    </article>
+  </section>
+
+  <footer>
+    <p>Footer</p>
+  </footer>
+  <!-- <style>
+    .all-browsers {
+      margin: 0;
+      padding: 10px;
+      background-color: aquamarine;
+    }
+
+    .browser {
+      background-color: #fff;
+    }
+
+    .all-browsers > h1,.browser {
+      margin: 2px;
+      padding: 5px;
+    }
+
+    .browser > h2,p {
+      margin:2px;
+      font-size: 90%;
+
+    }
+  </style>
+  <article class="all-browsers">
+    <h1>NET2 </h1>
+    <article class="browser">
+      <h2>Mở đầu</h2>
+      <p>Nội dung </p>
+    </article>
+    <article class="browser">
+      <h2>Chương 1</h2>
+      <p>Nội dung</p>
+    </article>
+    <article class="browser">
+      <h2>Chương 2</h2>
+      <p>Nội dung</p>
+    </article>
+  </article>
+   -->
+
+
 </body>
+
 </html>
