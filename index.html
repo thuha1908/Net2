@@ -43,9 +43,9 @@
     <textarea name="message" rows="20" cols="70" style="color: rgb(165, 155, 155);">Nhập nội dung</textarea>
     <br>
     <button type="button" onclick="alert ('Gửi thành công!')">Gửi</button>
-  </from> 
+  </from>
   <h3>Lựa chọn datalist Element</h3>
-  <form >
+  <form>
     <input list="browsers" name="browser">
     <datalist id="browsers">
       <option value="HTML">
@@ -55,6 +55,30 @@
       <option value=".NET">
     </datalist>
     <input type="submit">
+  </form>
+
+  <h3>reset cho biểu mẫu</h3>
+  <form action="#" target="_blank">
+    <label for="name"> UseName</label> <br>
+    <input type="text" id="name"> <br>
+    <label for="pass"> Passwork</label> <br>
+    <input type="text" id="pass"><br>
+    <button type="button" onclick="alert ('Đăng nhập thành công!')">Gửi</button>
+    <input type="reset" value="Đặt lại">
+  </form>
+
+  <h3>Form nhập ngày sinh</h3>
+  <form>
+    <label for="brithday">Ngày sinh: </label>
+    <input type="date" id="brithday" name="brithday">
+    <input type="submit" value="Gửi">
+
+  </form>
+  <br>
+  <form>
+    <label for="select">Chọn File</label>
+    <input type="file" id="myfile" name="myfile"><br>
+    <input type="submit" value="Gửi">
   </form>
   <br>
 
