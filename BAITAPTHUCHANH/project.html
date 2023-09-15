@@ -71,7 +71,7 @@
     </div>
 
     <!--Lựa chọn chuyên ngành-->
-    <div class="opption">
+    <div class="option">
         <h1><b>Lựa chọn chuyên ngành</b></h1>
         <form class="list">
             <input list="browsers" name="browser">
@@ -86,13 +86,13 @@
         </form>
 
         <h3>Các môn chuyên ngành</h3>
-        <form >
+        <form>
 
             <textarea id="danhSachMonHoc" name="danhSachMonHoc" rows="4" cols="50">Phát triển ứng dụng web 
 Python
 Phát triển ứng dụng với Python
             </textarea><br>
-            
+
         </form>
         <h4>Ý kiến phải hồi</h4>
         <form>
@@ -101,6 +101,38 @@ Phát triển ứng dụng với Python
             <input type="submit" value="Gửi">
         </form>
 
+    </div>
+
+    <!--Sign up-->
+    <div class="sign">
+        <h1>Sign up</h1>
+        <h5>Nó là miễn phí</h5>
+        <form action="/action_page.php">
+            <input type="text" placeholder="Firtname" name="firtname" id="firtname">
+            <input type="text" placeholder="Surname" name="lastname" id="lastname">
+            <br>
+            <input type="text" placeholder="Phone number or email address" name="number" id="number"><br>
+            <input type="text" placeholder="New password" name="pass" id="pass">
+        </form>
+        <h5 style="font-size: 20px;"><b>Birth Day</b></h5>
+        <form action="/process" method="post">
+            <input type="number" placeholder="Ngày" id="ngay" name="ngay" min="1" max="31" required>
+            <input type="number" placeholder="Tháng" id="thang" name="thang" min="1" max="12" required>
+            <input type="number" placeholder="Năm" id="nam" name="nam" min="1900" max="2099" required>
+        </form>
+        <h5>Tại sao tôi cần phải cung cấp ngày sinh nhật?</h5>
+        <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1_X45p3L-DawmIXGT1N3KNSq1qwq4waLi5Zho8b_L3XXwxfUD9fE5CsJbBoYskWZ1IV8&usqp=CAU">
+
+        <form action="">
+            <input type="radio" id="Nu" name="sex" value="Nữ">
+            <label for="html">Nữ</label>
+            <input type="radio" id="Nam" name="sex" value="Nam">
+            <label for="css">Nam</label>
+            <br>
+            <br>
+            <input type="button" value="Create account">
+        </form>
     </div>
 
 </body>
