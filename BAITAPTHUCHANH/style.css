@@ -14,7 +14,7 @@ h1 {
 
 h2 {
     font-size: 30px;
-    color: brown;
+    color: black;
 }
 
 h3 {
@@ -32,4 +32,19 @@ h4{
 section h2{
     color:black ;
 
+}
+.opption h1{
+    font-size: 50px;
+    color: rgb(255, 30, 0);
+}
+.opption h3, h4{
+    font-size: 35px;
+}
+.opption textarea {
+    width: 300px;
+    height: 100px;
+}
+.opption input{
+    width: 50px;
+    height: 30px;
 }

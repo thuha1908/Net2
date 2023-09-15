@@ -1,67 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>KHOA CNTT</title>
 </head>
+
 <body>
-    <h2>LÊ THỊ THU HÀ - 2021050228</h2>
-    <h1><u>KHOA CNTT</u></h1>
-    <h3>Departments</h>
-    <table>
-        <tr>
-            <th>STT</th>
-            <th>Department</th>
-            <th>Address</th>
-            <th>Phone</th>
-            <th>Email</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Tin học trắc địa</td>
-            <td>709 nhà 12 tầng</td>
-            <td>09099999</td>
-            <td>tinhoctracdia@humg.edu.vn</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>CNPM</td>
-            <td>702 nhà 12 tầng</td>
-            <td>090955555</td>
-            <td>cnpm@humg.edu.vn</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Tin học kinh te</td>
-            <td>708 nhà 12 tầng</td>
-            <td>09099666</td>
-            <td>tinhockinhte@humg.edu.vn</td>
-        </tr>
-    </table>
-    <h4><b>Chuyên ngành trong khoa</b></h4>
-    <ul>
-        <li>CNTT Địa học</li>
-        <li>CNPM</li>
-        <li>THKT</li>
-        <li>KHMT</li>
-        <li>HTTT</li>
-    </ul>
-    <section>
-        <h2>Trang Web này của Pug</h2>
-        <img src="https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2017/8/31/552244/T5.jpg">
-    </section>
+    <div>
+        <h2>LÊ THỊ THU HÀ - 2021050228</h2>
+        <h1><u>KHOA CNTT</u></h1>
+        <h3>Departments</h>
+            <table>
+                <tr>
+                    <th>STT</th>
+                    <th>Department</th>
+                    <th>Address</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Tin học trắc địa</td>
+                    <td>709 nhà 12 tầng</td>
+                    <td>09099999</td>
+                    <td>tinhoctracdia@humg.edu.vn</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>CNPM</td>
+                    <td>702 nhà 12 tầng</td>
+                    <td>090955555</td>
+                    <td>cnpm@humg.edu.vn</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Tin học kinh te</td>
+                    <td>708 nhà 12 tầng</td>
+                    <td>09099666</td>
+                    <td>tinhockinhte@humg.edu.vn</td>
+                </tr>
+            </table>
+            <h4><b>Chuyên ngành trong khoa</b></h4>
+            <ul>
+                <li>CNTT Địa học</li>
+                <li>CNPM</li>
+                <li>THKT</li>
+                <li>KHMT</li>
+                <li>HTTT</li>
+            </ul>
+            <section>
+                <h2>Trang Web này của Pug</h2>
+                <img src="https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2017/8/31/552244/T5.jpg">
+            </section>
+    </div>
 
     <!--Log in-->
-    <form>
-        <label for="name">User Name:</label>
-        <input type="text" id="name" name="name" value="input username"><br>
-        <label for="pass">Password:</label>
-        <input type="text" id="pass" name="pass" value="input password"><br>
-        <label for="remember">Remember me:</label>
-        <input type="checkbox" id="remember" name="remember" ><br>
-        <input type="submit" value="Log in">
-    </form>
+    <div>
+        <form>
+            <label for="name">User Name:</label>
+            <input type="text" id="name" name="name" value="input username"><br>
+            <label for="pass">Password:</label>
+            <input type="text" id="pass" name="pass" value="input password"><br>
+            <label for="remember">Remember me:</label>
+            <input type="checkbox" id="remember" name="remember"><br>
+            <input type="submit" value="Log in">
+        </form>
+    </div>
+
+    <!--Lựa chọn chuyên ngành-->
+    <div class="opption">
+        <h1><b>Lựa chọn chuyên ngành</b></h1>
+        <form class="list">
+            <input list="browsers" name="browser">
+            <datalist id="browsers">
+                <input list="browsers" name="browser">
+                <option value="CNTT Địa Học">
+                <option value="Công Nghệ Phần Mềm">
+                <option value="Khoa Học Máy Tính">
+                <option value="Tin Học Kinh Tế">
+                <option value="Hệ Thống Thông Tin">
+            </datalist>
+        </form>
+
+        <h3>Các môn chuyên ngành</h3>
+        <form >
+
+            <textarea id="danhSachMonHoc" name="danhSachMonHoc" rows="4" cols="50">Phát triển ứng dụng web 
+Python
+Phát triển ứng dụng với Python
+            </textarea><br>
+            
+        </form>
+        <h4>Ý kiến phải hồi</h4>
+        <form>
+            <textarea name="message" role="50" cols="50"></textarea>
+            <br>
+            <input type="submit" value="Gửi">
+        </form>
+
+    </div>
+
 </body>
+
 </html>
