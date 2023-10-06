@@ -10,7 +10,13 @@ h1 {
 body {
     background-color: linen;
 }
-
+body {
+  background-image: url("https://inkythuatso.com/uploads/thumbnails/800/2023/03/hinh-cay-xuong-rong-chibi-1-14-15-40-00.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+  background-attachment: scroll;
+}
 h5 {
     font-size: 15px;
     color: papayawhip;
