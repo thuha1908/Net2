@@ -1,7 +1,16 @@
 h1 {
     font-size: 50px;
     color: aqua; /*Đặt màu văn bản màu xanh*/
-}
+}body {
+    margin: 0;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
 .center {
   text-align: center;
   color: red;
