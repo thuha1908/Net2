@@ -11,6 +11,15 @@ h1 {
     padding: 20px;
     text-align: center;
   }
+  ol {
+    counter-reset: section;
+    list-style-type: none;
+  }
+  
+  li::before {
+    counter-increment: section;
+    content: counters(section,".") " ";
+  }
 .center {
   text-align: center;
   color: red;
