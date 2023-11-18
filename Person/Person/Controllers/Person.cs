@@ -5,17 +5,10 @@ namespace Person.Controllers
 {
     public class Person : Controller
     {
-        public IActionResult Index()
+        public Person(ApplicationDbCon) 
         {
-            return View();
         }
-        [HttpPost]
 
-        public IActionResult Index(string soA, string soB, string soC)
-        {
-           
-          
-            return View();
-        }
+
     }
 }
